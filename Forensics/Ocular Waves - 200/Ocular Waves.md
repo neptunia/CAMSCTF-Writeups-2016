@@ -17,6 +17,6 @@ This leaves us with [time.sf2](time.sf2). I tried searching up many tools to ope
 
 We open the file in [Audacity](http://www.audacityteam.org/). We switch the view to Spectrogram, and there's the flag!
 
-[](flag.png)
+[Picture:](flag.png)
 
 Flag: ```{G0T_71m3_4_M33333}```
