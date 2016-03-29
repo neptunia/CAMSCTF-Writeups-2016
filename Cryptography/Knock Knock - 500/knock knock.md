@@ -9,7 +9,7 @@ In order to solve this problem, we first read up on how android passwords are st
 
 	1. Inside password.key there is a SHA-1 and a MD5 hash of the password
 	2. From device_policies.xml we see that the password is 7 characters
-	3. From locksettings.db we see the salt is `8023748904807506340`.
+	3. From locksettings.db we see the salt is 8023748904807506340.
 
 Since I didn't have oclHashcat, I wrote my own script to crack this. First, we copy out the MD5 hash (last 16 characters). Next, we convert the salt to lowercase hex (`6f5a151e05fb21a4`). We can then brute force the password:
 
