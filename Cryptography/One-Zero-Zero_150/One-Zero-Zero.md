@@ -17,7 +17,7 @@ Based on the `key.pub` specifications, since no public exponent is given we can 
 
 `1522605027922533360535618378132637429718068114961380688657908494580122963258952897654000350692006139`
 
-in base 10. However, we do not need to factor this number. In the problem statement, we are given "One-Zero-Zero," meaning 100. On the [wikipedia page for RSA numbers] (https://en.wikipedia.org/wiki/RSA_numbers) we see that RSA-100 has already been factored:
+in base 10. However, we do not need to factor this number. In the problem statement, we are given "One-Zero-Zero," meaning 100. On the [wikipedia page for RSA numbers](https://en.wikipedia.org/wiki/RSA_numbers) we see that RSA-100 has already been factored:
 
 	RSA-100 = 37975227936943673922808872755445627854565536638199
         	× 40094690950920881030683735292761468389214899724061
