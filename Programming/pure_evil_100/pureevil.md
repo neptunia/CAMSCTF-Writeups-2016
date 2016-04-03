@@ -7,7 +7,7 @@
 
 First, we note that at max this will take about 10**5 iterations (10 digits/5 digits = 5 digits). For a computer, that's not much, so that means we won't have to optimize our code!
 
-We find that the smallest 5 digit power of 2 is `16384`. We can start from the smallest 10-digit multiple of this numner (`1000013824`) and count up by 16384s, and every time we hit a palindrome we increment our total. The final code looks like [this](solver.py)
+We find that the smallest 5 digit power of 2 is `16384`. We can start from the smallest 10-digit multiple of this numner (`1000013824`) and count up by 16384s, and every time we hit a palindrome we increment our total. The final code looks like [this](solver.py):
 
 ```python
 factor = 2**14 # 16384
