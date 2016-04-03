@@ -13,6 +13,7 @@ We open the file first in a hex editor, and see at the bottom:
 Then we open it in an image viewer, where we see:
 
 ![numbers.png](numbers.png)
+
 Converting int to ascii, we get:
 
 `"99 97 78 100 95 110 48 119 95 121 48 117 95 105 48 117 110 100 95 116 104 51 95 111 116 104 51 114 125"`
